@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Dun Dun Dun</title>
+    </head>
+    <body>
+        <div id="app">
+            <a href="#" onclick="return playSound()" id="dundundun">Add Drama</a>
+
+            <div id="about_link">
+                <a href="#" onclick="return showAbout();">About</a>
+            </div>
+        </div>
+
+        <div id="about">
+            <h1>Dun Dun Dun</h1>
+
+            <p>Created by <a href="#" data-url="http://nativesavannah.com" class="remote">Native Savannah LLC</a>. Because I thought it was funny. <a href="#" data-url="http://nslabs.co/dundundun" class="remote">More info.</a></p>
+
+            <h2>Privay</h2>
+            <p>This is an app to play a silly sound when you push a button. There's no reason for it to collect any information from you. So it doesn't. <a href="#" data-url="http://nslabs.co/dundundun/privacy" class="remote">Full version can be found here.</a></p>
+
+            <h2>Credits</h2>
+            <p>The source for the sound file can be found <a href="#" data-url="https://www.youtube.com/watch?v=bW7Op86ox9g" class="remote">here</a>.</p>   
+
+            <p>This quick little app was put together using <a href="#" data-url="https://cordova.apache.org/" class="remote">Apache Cordova</a>.
+
+            <p><a href="#" onclick="return showApp()">Back</a></p>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

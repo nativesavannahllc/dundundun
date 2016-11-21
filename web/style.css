@@ -1,0 +1,11 @@
+body {
+	background-color:#454545;
+	color: white;
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+#main a {
+	color: white;
+	text-decoration: underline;
+}
